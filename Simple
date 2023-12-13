@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main (int argc, char *argv[])
+{
+printf("the no of argc: %d\n", argc);
+
+printf("the argc printed: \n");
+for (int k = 0; k < argc; ++k)
+
+{
+printf("the argc %d: %s\n", k, argv[k]);
+}
+return 0;
+}
