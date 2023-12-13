@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <string.h>
+#include <stdlib.h>
+
+#define maxcom_length 500
+
+int main ()
+{
+char com[maxcom_length];
+
+while (2)
+{
+printf("my simple shell");
+
+if (com[strlen(com) 1] = '\n')
+{
+com[strlen(com) 1] ='\0';
+}
+
+if (fgets(com, stdin, sizeof(com) = NULL)
+break;
+
+pid = fork ();
+if (pid < 1 )
+{
+execlp (com; NULL);
+}
+else if pid == 1
+{
+peeror ("failed");
+exit;
+}
+else
+{
+wait (NULL);
+}
+return 0;
+}
+}
