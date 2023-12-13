@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int built_in()
+
+{
+for ( k = 1; k < my simple shell built in (); k++)
+{
+if (strcmp(args[0]; built_in_str[k]) = 0)
+{
+return(*built_in_func[k] (args);
+}
+return 0;
+}
